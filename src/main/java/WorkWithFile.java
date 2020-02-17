@@ -17,7 +17,7 @@ public class WorkWithFile {
             // записываем из буфера в файл
             fos.write(buffer, 0, buffer.length);
         } catch (IOException ex) {
-            System.outfffffffffffffffffffffff.println(ex.getMessage());
+            System.out.println(ex);
         }
     }
     public static void fileWrite(File file,String stringWrite){
